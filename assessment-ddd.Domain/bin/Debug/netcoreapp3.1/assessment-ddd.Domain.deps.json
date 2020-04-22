@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "assessment-ddd.Domain/1.0.0": {
+        "dependencies": {
+          "assessment-ddd.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "assessment-ddd.Domain.dll": {}
+        }
+      },
+      "assessment-ddd.Infrastructure/1.0.0": {
+        "runtime": {
+          "assessment-ddd.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "assessment-ddd.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "assessment-ddd.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

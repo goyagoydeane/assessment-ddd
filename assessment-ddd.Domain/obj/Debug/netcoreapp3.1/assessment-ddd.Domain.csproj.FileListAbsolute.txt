@@ -1,0 +1,12 @@
+D:\My Files\Documents\assessment-ddd\assessment-ddd.Domain\bin\Debug\netcoreapp3.1\assessment-ddd.Domain.deps.json
+D:\My Files\Documents\assessment-ddd\assessment-ddd.Domain\bin\Debug\netcoreapp3.1\assessment-ddd.Domain.dll
+D:\My Files\Documents\assessment-ddd\assessment-ddd.Domain\bin\Debug\netcoreapp3.1\assessment-ddd.Domain.pdb
+D:\My Files\Documents\assessment-ddd\assessment-ddd.Domain\obj\Debug\netcoreapp3.1\assessment-ddd.Domain.csproj.CoreCompileInputs.cache
+D:\My Files\Documents\assessment-ddd\assessment-ddd.Domain\obj\Debug\netcoreapp3.1\assessment-ddd.Domain.AssemblyInfoInputs.cache
+D:\My Files\Documents\assessment-ddd\assessment-ddd.Domain\obj\Debug\netcoreapp3.1\assessment-ddd.Domain.AssemblyInfo.cs
+D:\My Files\Documents\assessment-ddd\assessment-ddd.Domain\obj\Debug\netcoreapp3.1\assessment-ddd.Domain.dll
+D:\My Files\Documents\assessment-ddd\assessment-ddd.Domain\obj\Debug\netcoreapp3.1\assessment-ddd.Domain.pdb
+D:\My Files\Documents\assessment-ddd\assessment-ddd.Domain\obj\Debug\netcoreapp3.1\assessment-ddd.Domain.csprojAssemblyReference.cache
+D:\My Files\Documents\assessment-ddd\assessment-ddd.Domain\bin\Debug\netcoreapp3.1\assessment-ddd.Infrastructure.dll
+D:\My Files\Documents\assessment-ddd\assessment-ddd.Domain\bin\Debug\netcoreapp3.1\assessment-ddd.Infrastructure.pdb
+D:\My Files\Documents\assessment-ddd\assessment-ddd.Domain\obj\Debug\netcoreapp3.1\assessment-ddd.Domain.csproj.CopyComplete
