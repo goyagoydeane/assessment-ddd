@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "iF2IW6aH3C0UTglYbR5YDoZxR2nqIjjrCBR89vF5Uu0fsafSXD2/XPFNg3pAHfaRlz+N87hi1fOUctYKAFFRoA==",
+  "dgSpecHash": "41bcs12q+1KtLTTgBv/yxQBY3hkDjtpDKvRURfgz1s4om8tqQj1v3PBJUDxXfgJ2gSctDYJN+cVuAqLLk+V1GA==",
   "success": true,
   "projectFilePath": "D:\\My Files\\Documents\\assessment-ddd\\assessment-ddd.Domain\\assessment-ddd.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

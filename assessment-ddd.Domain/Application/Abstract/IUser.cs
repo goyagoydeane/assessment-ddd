@@ -9,9 +9,8 @@ namespace assessment_ddd.Domain.Application.Abstract
 {
     public interface IUser
     {
-        void AddMoney(int id, MoneyModel money);
-        void ChargeMoney(int id, MoneyModel money);
-        void ExchangeMoney(int id, MoneyModel money, CurrencyModel currency);
-        List<MoneyModel> GetAllMoney(int id);
+        void SetMoney(int id, MoneyModel money);
+        void ExchangeMoney(int id, MoneyModel money, CurrencyModel to);
+        List<MoneyModel> GetAllUserMoney(int id);
     }
 }

@@ -30,33 +30,25 @@ namespace assessment_ddd.Controllers
 
         [Route("{id:int}/balance")]
         [HttpGet]
-        public IActionResult Balance([FromRoute]int id, int currencyId, double amount)
+        public IActionResult Balance([FromRoute]int id)
         {
-            var currency = _currency.GetCurrencyByID(currencyId);
-            _user.AddMoney(id, new MoneyModel { amount = amount, currency = currency });
-
-            return Ok(_user.GetAllMoney(id));
+            return Ok(_user.GetAllUserMoney(id));
         }
 
         [Route("{id:int}/exchange")]
         [HttpPost]
-        public IActionResult Exchange([FromRoute]int id, int currencyId, double amount)
+        public IActionResult ExchangeMoney([FromRoute]int id, MoneyModel money, CurrencyModel to)
         {
-            var currency = _currency.GetCurrencyByID(currencyId);
-            _user.AddMoney(id, new MoneyModel { amount = amount, currency = currency });
-
-            return Ok(_user.GetAllMoney(id));
+            _user.ExchangeMoney(id, money, to);
+            return Ok();
         }
 
-        [Route("{id:int}/balance")]
-        [HttpGet]
-        public IActionResult GetBalance([FromRoute]int id)
+        [Route("{id:int}/money")]
+        [HttpPost]
+        public IActionResult SetUserMoney([FromRoute]int id, [FromBody] MoneyModel money)
         {
-            //var currency = _currency.GetCurrencyByID(money.currency.currencyId);
-
-            _user.GetAllMoney(id);
-    
-            return Ok("1");
+            _user.SetMoney(id, money);
+            return Ok();
         }
     }
 }

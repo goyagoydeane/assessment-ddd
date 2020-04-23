@@ -9,8 +9,10 @@ namespace assessment_ddd.Domain.Application.Service
 {
     public class BalanceService : IBalance
     {
-        private Dictionary<CurrencyModel, double> currencies = new Dictionary<CurrencyModel, double>();
-
+        private static Dictionary<CurrencyModel, double> currencies { get; set; }
+        public Dictionary<CurrencyModel, double> GetCurrencies() {
+            return currencies;
+        }
         public void AddMoney(MoneyModel money)
         {
             if (currencies.ContainsKey(money.currency))
@@ -35,15 +37,15 @@ namespace assessment_ddd.Domain.Application.Service
             }
         }
 
-        public void ExchangeMoney(MoneyModel money, CurrencyModel currency)
+        public void ExchangeMoney(MoneyModel moneyFrom, CurrencyModel currencyTo)
         {
-            double ratio = Math.Round(money.currency.ratio / currency.ratio, 2);
+            double ratio = Math.Round(moneyFrom.currency.ratio / currencyTo.ratio, 2);
             AddMoney(new MoneyModel { 
-                currency = currency, 
-                amount = (Math.Round(money.amount * ratio * 100) / 100) 
+                currency = currencyTo, 
+                amount = (Math.Round(moneyFrom.amount * ratio * 100) / 100) 
             });
 
-            ChargeMoney(money);
+            ChargeMoney(moneyFrom);
         }
 
         public List<MoneyModel> GetAllMoney()

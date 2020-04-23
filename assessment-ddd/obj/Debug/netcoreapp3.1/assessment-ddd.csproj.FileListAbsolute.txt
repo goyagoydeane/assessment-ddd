@@ -96,8 +96,9 @@ D:\My Files\Documents\assessment-ddd\assessment-ddd\bin\Debug\netcoreapp3.1\Micr
 D:\My Files\Documents\assessment-ddd\assessment-ddd\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 D:\My Files\Documents\assessment-ddd\assessment-ddd\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\My Files\Documents\assessment-ddd\assessment-ddd\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\My Files\Documents\assessment-ddd\assessment-ddd\bin\Debug\netcoreapp3.1\assessment-ddd.Infrastructure.dll
+D:\My Files\Documents\assessment-ddd\assessment-ddd\bin\Debug\netcoreapp3.1\assessment-ddd.Infrastructure.pdb
+D:\My Files\Documents\assessment-ddd\assessment-ddd\bin\Debug\netcoreapp3.1\Dapper.dll
 D:\My Files\Documents\assessment-ddd\assessment-ddd\obj\Debug\netcoreapp3.1\assessment-ddd.csproj.CoreCompileInputs.cache
 D:\My Files\Documents\assessment-ddd\assessment-ddd\obj\Debug\netcoreapp3.1\assessment-ddd.MvcApplicationPartsAssemblyInfo.cs
 D:\My Files\Documents\assessment-ddd\assessment-ddd\obj\Debug\netcoreapp3.1\assessment-ddd.MvcApplicationPartsAssemblyInfo.cache
-D:\My Files\Documents\assessment-ddd\assessment-ddd\bin\Debug\netcoreapp3.1\assessment-ddd.Infrastructure.dll
-D:\My Files\Documents\assessment-ddd\assessment-ddd\bin\Debug\netcoreapp3.1\assessment-ddd.Infrastructure.pdb

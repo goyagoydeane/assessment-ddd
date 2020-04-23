@@ -11,5 +11,6 @@ namespace assessment_ddd.Domain.Application.Abstract
         void ChargeMoney(MoneyModel money);
         void ExchangeMoney(MoneyModel money, CurrencyModel currency);
         List<MoneyModel> GetAllMoney();
+        Dictionary<CurrencyModel, double> GetCurrencies();
     }
 }
